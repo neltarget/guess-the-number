@@ -16,14 +16,16 @@ body {
   font-family: cursive;
   border: 1px groove rgba(247, 0, 255, 0.754);
   border-radius: 1.5rem;
-  width: max-content;
+  width: 98%;
+  max-width: 400px;
+  box-sizing: border-box;
   height: screen;
   padding: 20px;
   box-shadow: 0.01rem 0.05rem 0.7rem rgb(32, 5, 47);
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 24px;
   margin: 0.4rem 0;
 }
 
