@@ -28,7 +28,7 @@ checkGuess = () => {
     hiddenNum.textContent = randomNum;
     guessBtn.disabled = true;
     guessInput.disabled = true;
-    hint.classList.add("winner");
+    hint.classList.add("game-won");
     clearInterval(timerInterval); //stop timer
 
     //incorrect guess
