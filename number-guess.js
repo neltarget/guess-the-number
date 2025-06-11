@@ -24,7 +24,7 @@ checkGuess = () => {
 
     //correct guess
   } else if (guess === randomNum) {
-    hint.innerText = "Right✅, You've Won 😀🎉";
+    hint.innerText = "Correct✅ You Win🕺🏻";
     hiddenNum.textContent = randomNum;
     guessBtn.disabled = true;
     guessInput.disabled = true;
@@ -44,7 +44,7 @@ checkGuess = () => {
 
       //out of lives - game lost
     } else {
-      hint.innerText = `☠️You lost, play again?`;
+      hint.innerText = `☠️You lost, Play Again❔`;
       livesLabel.innerText = `You have 0 💎`;
       hint.classList.add("game-over");
       guessBtn.disabled = true;

@@ -13,7 +13,7 @@ body {
     rgba(165, 7, 200, 0.332)
   );
   margin: 5% auto;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   border: 1px groove rgba(247, 0, 255, 0.754);
   border-radius: 1.5rem;
   width: 98%;
@@ -25,8 +25,9 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 25px;
   margin: 0.4rem 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 p {
