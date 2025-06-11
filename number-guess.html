@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="number-guess.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>🎯Guess the number🎯</h1>
+      <p id="game-icon">🤔&RightArrow;<span id="hidden-num">❔</span></p>
+      <p class="game-instruction">💡Pick a number from 1 to 15</p>
+
+      <div class="guess-container">
+        <input type="number" id="guess" placeholder="Your guess here" />
+
+        <button onclick="checkGuess()" id="guess-btn">🎲Guess</button>
+      </div>
+      <!-- game hint -->
+      <p id="hint">⚡Start guessing...</p>
+      <!-- diamonds left -->
+      <div id="game-status">
+        <p id="lives-info">
+          You have <span id="lives">5</span> <span class="diamond">💎</span>
+        </p>
+        <p id="timer">⏱️: 30 seconds</p>
+      </div>
+      <!-- reset button -->
+      <button class="resetBtn" onclick="resetGame()">🔁Play again!</button>
+    </div>
+
+    <script src="number-guess.js"></script>
+  </body>
+</html>

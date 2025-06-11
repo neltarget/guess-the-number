@@ -1,0 +1,116 @@
+body {
+  background: rgba(110, 14, 155, 0.733);
+  font-size: 24px;
+  color: white;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to bottom left,
+    rgba(82, 8, 162, 0.381),
+    rgba(165, 7, 200, 0.332)
+  );
+  margin: 5% auto;
+  font-family: cursive;
+  border: 1px groove rgba(247, 0, 255, 0.754);
+  border-radius: 1.5rem;
+  width: max-content;
+  height: screen;
+  padding: 20px;
+  box-shadow: 0.01rem 0.05rem 0.7rem rgb(32, 5, 47);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0.4rem 0;
+}
+
+p {
+  font-size: 19px;
+}
+#game-icon {
+  font-size: 35px;
+  margin: 0.05rem;
+}
+.guess-container {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  align-content: center;
+}
+
+.game-instruction {
+  margin: 1rem 0;
+}
+
+#guess {
+  border: 1.5px solid rgb(125, 2, 141);
+  border-radius: 0.5rem;
+  width: 45%;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+  outline-style: dotted;
+}
+
+#guess:focus {
+  border: 2px solid rgb(161, 4, 159);
+}
+#hint {
+  margin: 0.95rem 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+
+.game-won {
+  color: rgb(142, 142, 2);
+  font: 1.3rem;
+}
+
+.game-over {
+  color: rgb(189, 11, 2);
+  font: 1.3rem;
+}
+#game-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1%;
+}
+
+/* #lives {
+  color: cyan;
+  font: bold;
+  font-size: 1.5rem;
+}
+
+.diamond {
+  font-size: 1.3rem;
+} */
+
+button {
+  border: 0.05px solid rgba(2, 45, 30, 0.549);
+  border-radius: 0.5rem;
+  font-size: 20px;
+  color: rgb(248, 252, 251);
+  padding: 5px 5px;
+  font-weight: 600;
+  box-shadow: 0.01rem 0.05rem 0.3em rgb(51, 7, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgba(241, 29, 170, 0.883),
+    rgba(42, 5, 91, 0.537)
+  );
+  transition: background 3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(
+    to top left,
+    rgba(5, 2, 147, 0.376),
+    rgba(186, 1, 125, 0.613)
+  );
+}
